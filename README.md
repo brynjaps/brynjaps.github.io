@@ -1,1 +1,1 @@
-# brynjaps.github.io
+# CV - Brynja Pálína Sigurgeirsdóttir
