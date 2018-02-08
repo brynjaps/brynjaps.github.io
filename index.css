@@ -1,0 +1,27 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: #2A4D6E;
+}
+
+.mainCV {
+    background-color: #ffffff;
+    padding: 50px;
+}
+
+#cvPhoto {
+    width: 100%;
+    height: auto;
+    border: 10px solid #2A4D6E;
+    border-radius: 20%;
+}
+
+#basicInfo {
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.heading {
+    font-weight: bold;
+}
+
