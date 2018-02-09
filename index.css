@@ -25,3 +25,37 @@ body {
     font-weight: bold;
 }
 
+#ref {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.referencer {
+    border: 5px solid #2A4D6E;
+    border-radius: 20%;
+    background-color: #363377;
+    color: #ffffff;
+    padding: 30px;
+    width:40%;
+    margin-top: 30px;
+}
+
+@media (max-width: 770px){
+    #ref {
+        flex-direction: column;
+    }
+
+    .referencer {
+        width: 100%;
+    }
+}
+
+.linkPhoto {
+    width: 50%;
+    height: auto;
+}
+
+#linkBox {
+    display: flex;
+}
