@@ -142,15 +142,7 @@ body {
     transform: rotateY(180deg);
 }
 */
-@media (max-width: 770px){
-    #ref {
-        flex-direction: column;
-    }
 
-    .referencer {
-        width: 100%;
-    }
-}
 
 /*links*/
 
@@ -161,4 +153,23 @@ body {
 
 #linkBox {
     display: flex;
+}
+
+/*media*/
+
+@media (max-width: 770px) {
+    #ref {
+        flex-direction: column;
+    }
+
+    .referencer {
+        width: 100%;
+    }
+}
+
+@media(max-width: 400px) {
+    .nav_bar_title {
+        font-size: 20px;
+        letter-spacing: 10px;
+    }
 }
