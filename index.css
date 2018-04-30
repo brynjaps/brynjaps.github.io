@@ -63,7 +63,7 @@ body {
 
 /*Education*/
 
-/* Programming skills */
+/* Skills */
 
 .skills {
     display: flex;
@@ -84,6 +84,17 @@ body {
     background-color: #363377;
 }
 
+.lang__item {
+    background-color: #3977aa;
+    color: #ffffff;
+    height: 150px;
+    width: 200px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
 
 .skillPhoto {
     max-width: 80%;
