@@ -113,6 +113,15 @@ body {
     display: block;
 }
 
+
+/*Projects*/
+
+.project__link {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
 /*References*/
 
 #ref {
