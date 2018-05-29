@@ -4,6 +4,7 @@
     darker blue: #041E37
     white: #ffffff
     dark sky blue: #3977aa
+    dark yellow: #7E6E16
 */
 
 body {
@@ -55,11 +56,21 @@ body {
     display:flex;
     flex-direction: column;
     align-content: center;
-    
+    background-color: #3977aa;
+    color: #ffffff;
+    padding-top: 30px;
+    margin: -50px 0px -50px -35px;
 }
 
 .heading {
     font-weight: bold;
+}
+
+#nameInfo {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /*Education*/
