@@ -1,0 +1,22 @@
+{
+  "name": "brynjaps.github.io",
+  "version": "1.0.0",
+  "description": "personal website for Brynja Pálína Sigurgeirsdóttir",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brynjaps/brynjaps.github.io.git"
+  },
+  "author": "Brynja Pálína Sigurgeirsdóttir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brynjaps/brynjaps.github.io/issues"
+  },
+  "homepage": "https://github.com/brynjaps/brynjaps.github.io#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
