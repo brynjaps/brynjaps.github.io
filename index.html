@@ -1,333 +1,68 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="is">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Ferilskrá, Brynja Pálína Sigurgeirsdóttir</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="index.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&amp;subset=latin-ext" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/icon-font.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+        <title>Ferilskrá, Brynja Pálína Sigurgeirsdóttir</title>
     </head>
+
     <body>
-        <div id="nav_bar">
-            <div class="nav_bar_title">brynjaps</div>
-            <a href="index_en.html" class="nav_language">
-                <img class="nav_img" src="img/uk_flag.png" alt="UK flag" id="uk_flag">
-            </a>
-        </div>
-        <div class="container mainCV">
+        <header class="header">
+            <div class="header__shape">
+                <img src="img/bw.jpg" alt="Brynja Pálína Sigurgeirsdóttir" class="header__img">
+            </div>
+            <div class="header__text-box">
+                <h1 class="heading-primary">
+                    <span class="heading-primary--main">Brynja Pálína Sigurgeirsdóttir</span>
+                    <span class="heading-primary--sub">Forritari með kunnáttu á viðskiptasviði</span>
+                </h1>
+            </div>
+        </header>
+        <section class="section-jobs">
+            <h2 class="heading-secondary">
+                Starfsreynsla
+            </h2>
+
             <div class="row">
-                <div id="basicInfo" class="col-lg-4">
-                    <div id="photoContainer">
-                        <img src="img/bw.jpg" alt="Mynd af Brynju Pálínu Sigurgeirsdóttur" id="cvPhoto">
-                    </div>
-                    <div id="nameInfo">
-                        <h1 class="heading">Brynja Pálína Sigurgeirsdóttir</h1>
-                        <p>Tölvunarfræði nemi með viðskiptakjörsviði</p>
-                    </div>
-                    <div id="other">
-                        <h3>Annað</h3>
-                        <div id="social">
-                            <h4>Félagsstörf 2016-2018:</h4>
-                            <ul>
-                                <li>Formaður myndbandanefndar Nörds, nemendafélags tölvunar- og hugbúnaðarfræðinema í Háskóla Íslands</li>
-                                <li>Tók þátt í fjölbreyttum nefndarstörfum</li>
-                                <li>Var í fulltrúarstarfi innan Nörds</li>
-                                <li>Gjaldkeri og varaformaður íþróttafélagsins, Reykjavík Ragnarök</li>
-                                <li>Hef auk þess skipulagt keppnisferðalög, viðburði, fjáraflanir og æfingar á vegum félagsins.</li>
-                            </ul>
-                        </div>
-                        <div id="hobby">
-                            <h4>Áhugmálin mín eru:</h4>
-                            <ul>
-                                <li>Líkamsrækt</li>
-                                <li>Ferðalög</li>
-                                <li>Ljósmyndun</li>
-                            </ul>
-                        </div> 
-                    </div>
-                    <div id="personalInfo">
-                        <h3>Upplýsingar</h3>
-                        <p>Brynja Pálína Sigurgeirsdóttir</p>
-                        <p>S.869-1737</p>
-                        <p>brynjaps@outlook.com</p>
-                        <div id="linkBox">
-                            <a href="https://github.com/brynjaps" target="_blank" >
-                                <img class="linkPhoto" src="img/github_icon.png" alt="link to brynjaps's github">
-                            </a>
-                            <a href="https://www.linkedin.com/in/brynjaps" target="_blank">
-                                <img class="linkPhoto" src="img/linkedin_icon.png" alt="link to brynjaps's linkedin">
-                            </a>
-                            <a href="https://www.facebook.com/brynja.p.sigurgeirsdottir" target="_blank" alt="link to brynjaps's facebook">
-                                <img class="linkPhoto" src="img/facebook-icon.png">
-                            </a>
-                        </div>
+                <div class="col-1-of-4">
+                    <div class="card">
+                        <img src="img/rdn-logo.png" alt="Rue de Net logo" class="card__img">
+                        <!--<div class="card__info">
+                            <div class="card__title">
+                                Hugbúnaðar- sérfræðingur
+                            </div>
+                            <div class="card__details">
+    
+                            </div>
+                        </div> -->
                     </div>
                 </div>
-                <div id="expInfo" class="col-lg-8">
-                    <div id="jobExp">
-                        <h2 class="heading">Starfsreynsla</h2>
-                        <div class="job">
-                            <h3 class="jobDate">Sumar 2017</h3>
-                            <h4 class="title">Rue de Net</h4>
-                            <p class="jobDescr">Vann sem hugbúnaðarsérfræðingur. Vann við vefforritun, framenda og bakenda, ásamt forritun í Dynamics Nav.</p>
-                        </div>
-                        <div class="job">
-                            <h3 class="jobDate">2016-2017</h3>
-                            <h4 class="title">A4</h4>
-                            <p class="jobDescr">Vann sem sölumaður</p>
-                        </div>
-                        <div class="job">
-                        </div>
-                            <h3 class="jobDate">2014-2015</h3>
-                            <h4 class="title">Ikea</h4>
-                            <p class="jobDescr">Vann sem afgreiðslumaður</p>
-                        </div>
-                        <div class="job">
-                            <h3 class="jobDate">2012-2015</h3>
-                            <h4 class="title">KGRP / GUFUNESKIRKJUGARÐUR</h4>
-                            <p class="jobDescr">Vann sem almennur sumarstarfsmaður</p>
+                <div class="col-1-of-4">
+                    <div class="card">
+                        <img src="img/a4-logo.svg" alt="A4" class="card__img">
                     </div>
-                    <div id="edu">
-                        <h2 class="heading">Menntun</h2>
-                        <h3 class="school">Háskóli Íslands</h3>
-                        <h4 class="eduDate">2015-2018</h4>
-                        <p class="eduDescr">Hóf nám í tölvunarfræði með viðskiptakjörsviði við Háskóla Íslands haustið 2015 og er nú að klára þriðja árið mitt þar með 7,93 í meðaleinkunn.</p>
-                        <h3 class="school">Verzlunarskóli Íslands</h3>
-                        <h4 class="eduDate">2011-2015</h4>
-                        <p class="eduDescr">Stundaði nám við Verzlunarskóla Íslands frá árinu 2011 og útskrifaðist úr því námi vorið 2015 með 8,9 í meðaleinkunn. Stundaði nám á viðskiptasviði hagfræðibraut.</p>
+                </div>
+                <div class="col-1-of-4">
+                    <div class="card">
+                        <img src="img/ikea-logo.jpeg" alt="Ikea" class="card__img">
                     </div>
-                    <div id="comp">
-                        <h2 class="heading">Forritunar- og tölvukunnátta</h2>
-                        <h3>Forritun</h3>
-                        <div class="skills">
-                            <div class="skill-item">
-                                <a href="https://www.java.com/en/" target="_blank">
-                                    <img class="skillPhoto" src="img/java_logo_3.png" alt="Java">
-                                </a>
-                            </div>
-                            <div class="skill-item">
-                                <a href="https://www.javascript.com/" target="_blank">
-                                    <img class="skillPhoto" src="img/javascript_logo.png" alt="Javascript">
-                                </a>
-                            </div>
-                            <div class="skill-item">
-                                <a href="https://www.android.com/" target="_blank">
-                                    <img class="skillPhoto" src="img/android_logo.png" alt="Android">
-                                </a>
-                            </div>
-                            <div class="skill-item">
-                                <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML" target="_blank">
-                                    <img class="skillPhoto" src="img/html5_logo.png" alt="HTML">
-                                </a>
-                            </div>
-                            <div class="skill-item">
-                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-                                    <img class="skillPhotoLarge" src="img/css3_logo.png" alt="CSS">
-                                </a>
-                            </div>
-                            <div class="skill-item">
-                                <a href="https://sass-lang.com/" target="_blank">
-                                    <img class="skillPhoto" src="img/sass_logo.png" alt="SASS">
-                                </a>
-                            </div>
-                            <div class="skill-item">
-                                <a href="https://reactjs.org/" target="_blank">
-                                    <img class="skillPhoto" src="img/react_logo.png" alt="React">
-                                </a>
-                            </div>
-                            <div class="skill-item">
-                                <a href="https://nodejs.org/en/" target="_blank">
-                                    <img class="skillPhoto" src="img/node_logo.png" alt="node">
-                                </a>
-                            </div>
-                            <div class="skill-item">
-                                <a href="https://expressjs.com/" target="_blank">
-                                    <img class="skillPhoto" src="img/express_logo.png" alt="express">
-                                </a>
-                            </div>
-                            <div class="skill-item">
-                                <a href="https://www.microsoft.com/net/" target="_blank">
-                                    <img class="skillPhoto" src="img/dotNet_logo.png" alt=".net">
-                                </a>
-                            </div>
-                            <div class="skill-item">
-                                <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank">
-                                    <img class="skillPhoto" src="img/cSharp_logo.png" alt="C#">
-                                </a>
-                            </div>
-                            <div class="skill-item">
-                                <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank">
-                                    <img class="skillPhoto" src="img/c_logo.png" alt="C">
-                                </a>
-                            </div>
-                            <div class="skill-item">
-                                <a href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank">
-                                    <img class="skillPhotoLarge" src="img/c++_logo.png" alt="C++">
-                                </a>
-                            </div>
-                            <div class="skill-item">
-                                <a href="https://www.postgresql.org/" target="_blank">
-                                    <img class="skillPhoto" src="img/postgresql_logo.png" alt="PostgreSQL">
-                                </a>
-                            </div>
-                            <div class="skill-item">
-                                <a href="https://www.sqlite.org/index.html" target="_blank">
-                                    <img class="skillPhoto" src="img/sqlite_logo.png" alt="SQLite">
-                                </a>
-                            </div>
-                            <div class="skill-item">
-                                <a href="https://git-scm.com/" target="_blank">
-                                    <img class="skillPhoto" src="img/git_logo.png" alt="Git">
-                                </a>
-                            </div>
-                            <div class="skill-item">
-                                <a href="https://www.python.org/" target="_blank">
-                                    <img class="skillPhoto" src="img/python_logo.png" alt="Python">
-                                </a>
-                            </div>
-                            <div class="skill-item">
-                                <a href="https://spring.io/" target="_blank">
-                                    <img class="skillPhoto" src="img/spring_logo.png" alt="Spring">
-                                </a>
-                            </div>
-                            <div class="skill-item">
-                                <a href="https://docs.microsoft.com/en-us/dynamics-nav/development-environment--c-side-" target="_blank">
-                                    <img class="skillPhoto" src="img/micro_dyn_logo.png" alt="Microsoft Dynamics NAV">
-                                </a>
-                            </div>
-                            <div class="skill-item">
-                                <a href="https://en.wikipedia.org/wiki/Scheme_(programming_language)" target="_blank">
-                                    <img class="skillPhoto" src="img/scheme_logo.png" alt="Scheme">
-                                </a>
-                            </div>
-                            <div class="skill-item">
-                                <a href="https://en.wikipedia.org/wiki/Caml" target="_blank">
-                                    <img class="skillPhoto" src="img/caml_logo.png" alt="Caml">
-                                </a>
-                            </div>
-                            <div class="skill-item">
-                                <a href="https://www.haskell.org/" target="_blank">
-                                    <img class="skillPhoto" src="img/haskell_logo.png" alt="Haskell">
-                                </a>
-                            </div>
-                            <div class="skill-item">
-                                <a href="https://www.r-project.org/" target="_blank">
-                                    <img class="skillPhoto" src="img/r_logo.png" alt="R">
-                                </a>
-                            </div>
-                            <div class="skill-item">
-                                <a href="http://morpho.cs.hi.is/docs.html" target="_blank">
-                                    <img class="skillPhoto" src="img/morpho_logo.png" alt="Morpho">
-                                </a>
-                            </div>
-
-                        </div>
-                        <h3>Tölvukunnátta</h3>
-                        <div class="skills">
-                            <div class="skill-item purple">
-                                <a href="https://www.microsoft.com/en-us/dynamics365/nav-overview" target="_blank">
-                                    <img class="skillPhoto" src="img/micro_dyn_logo.png" alt="Microsoft Dynamics NAV">
-                                </a>
-                            </div>
-                            <div class="skill-item purple">
-                                <a href="https://products.office.com/en/word" target="_blank">
-                                    <img class="skillPhoto" src="img/microsoft_word_logo.png" alt="Microsoft Word">
-                                </a>
-                            </div>
-                            <div class="skill-item purple">
-                                <a href="https://products.office.com/en/excel" target="_blank">
-                                    <img class="skillPhoto" src="img/microsoft_excel_logo.png" alt="Microsoft Excel">
-                                </a>
-                            </div>
-                            <div class="skill-item purple">
-                                <a href="https://products.office.com/en/powerpoint" target="_blank">
-                                    <img class="skillPhoto" src="img/microsoft_powerpoint_logo.png" alt="Microsoft Powerpoint">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <section class="section__projects">
-                        <h2 class="heading">Verkefni sem ég hef unnið</h2>
-                        <ul>
-                            <li>
-                                <a href="https://notendur.hi.is/~bps5/Natours-project/starter/" target="_blank" class="project__link">
-                                    <h4 class="project">Natours - Sass</h4>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://notendur.hi.is/~bps5/vefforritun/" target="_blank" class="project__link">
-                                    <h4 class="project">Vefforritunarverkefni</h4>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://notendur.hi.is/~bps5/vefforritun/stortVerkefni2/StortVerkefni2/" target="_blank" class="project__link">
-                                    <h4 class="project">Lokaverkefni í Vefforritun 1 - Javascript</h4>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://bookasafn.herokuapp.com/" target="_blank" class="project__link">
-                                    <h4 class="project">Lokaverkefni í Vefforritun 2 - React</h4>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/brynjaps" target="_blank" class="project__link">
-                                    <h4 class="project">Fleiri verkefni</h4>
-                                </a>
-                            </li>
-                        </ul>
-
-                    </section>
-
-                    <div id="lang">
-                        <h2 class="heading">Tungumálakunnátta</h2>
-                        <div class="skills">
-                            <div class="lang__item">
-                                <h4>Enska</h4>
-                                <p>Ég hef mjög góð tök á henni, get lesið fagmál, talað og ritað.</p>
-                            </div>
-                            <div class="lang__item">
-                                <h4>Danska</h4>
-                                <p>Ég get lesið, ritað og talað að einhverju leyti.</p>
-                            </div>
-                            <div class="lang__item">
-                                <h4>Þýska</h4>
-                                <p>Ég get lesið, ritað og talað að einhverju leyti</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div id=refContainer>
-                        <h2 class="heading">Meðmælendur</h2>
-                        <div id="ref">
-                            <div class="referencer">                
-                                <p class="refName">Alfred B. Þórðarson</p>
-                                <p class="refJob">Rue de Net</p>
-                                <p class="refPos">Framkvæmdastjóri, ráðgjafi og sérfræðingur</p>
-                                <p class="refPhone">S. 864-2000</p>
-                                <p class="refEmail">alfred@ruedenet.com</p>                       
-                            </div>
-                            <div class="referencer">
-                                <p class="refName">Ágúst Guðbjartsson</p>
-                                <p class="refJob">A4</p>
-                                <p class="refPos">Verslunarstjóri í A4 Skeifunni</p>
-                                <p class="refPhone">S. 773-0010</p>
-                            </div>
-                            <div class="referencer">
-                                <p class="refName">Kristjana J. Ásbjörnsdóttir</p>
-                                <p class="refJob">Ikea</p>
-                                <p class="refPos">Aðstoðarþjónustustjóri</p>
-                                <p class="refPhone">S. 820-2535</p>                       
-                            </div>
-                        </div>
+                </div>
+                <div class="col-1-of-4">
+                    <div class="card">
+                        <img src="img/kgrp-logo.png" alt="Kirkjugarðar Reykjavíkurprófastsdæma" class="card__img">
                     </div>
                 </div>
             </div>
-        </div>
+
+        </section>
     </body>
 </html>
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
