@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/brynjaps/brynjaps.github.io#readme",
   "devDependencies": {
-    "node-sass": "^4.9.0"
+    "node-sass": "^4.13.1"
   }
 }
